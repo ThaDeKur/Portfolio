@@ -1,9 +1,10 @@
 import './App.css';
+import PageContact from './PageContact/PageContact';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      {PageContact()}
     </div>
   );
 }
