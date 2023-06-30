@@ -6,6 +6,9 @@ import PageNavbar from './Navbar/PageNavbar';
 function App() {
   return (
    <div>
+    {PageNavbar()}
+    {PageHome()}
+    {PageSkills()}
    </div>
   );
 }
