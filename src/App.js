@@ -1,9 +1,10 @@
 import './App.css';
+import PageSkills from './PageSkills/PageSkills';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      {PageSkills()}
     </div>
   );
 }
