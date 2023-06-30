@@ -1,10 +1,12 @@
 import './App.css';
+import PageNavbar from './Navbar/PageNavbar';
 
 function App() {
+  PageNavbar();
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <div>
+      {PageNavbar()}
+    </div> 
   );
 }
 
