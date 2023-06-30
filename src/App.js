@@ -1,9 +1,10 @@
 import './App.css';
+import PageHome from './Home/PageHome';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      {PageHome()}
     </div>
   );
 }
