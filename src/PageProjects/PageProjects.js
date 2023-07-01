@@ -53,6 +53,7 @@ function PageProjects() {
 					</Card>
 				</Col>
 			</Row>
+			<hr/>
             <Accordion>
 					<Accordion.Item eventKey="0">
 						<Accordion.Header>Accordion Item #1</Accordion.Header>
