@@ -1,5 +1,6 @@
 import './App.css';
 
+import PageFooter from './PageFooter/PageFooter';
 import PageContact from './PageContact/PageContact';
 import PageProjects from './PageProjects/PageProjects';
 import PageSkills from './PageSkills/PageSkills';
@@ -16,6 +17,7 @@ function App() {
     {PageSkills()}
     {PageProjects()}
     {PageContact()}
+    {PageFooter()}
    </div>
   );
 }
