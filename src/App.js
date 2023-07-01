@@ -1,5 +1,5 @@
 import './App.css';
-
+import PageContact from './PageContact/PageContact';
 import PageSkills from './PageSkills/PageSkills';
 import AboutMe from './AboutMe/AboutMe';
 import PageHome from './Home/PageHome';
@@ -12,6 +12,7 @@ function App() {
     {PageHome()}
     {AboutMe()}
     {PageSkills()}
+    {PageContact()}
    </div>
   );
 }
