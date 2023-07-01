@@ -1,9 +1,10 @@
 import './App.css';
+import PageProjects from './PageProjects/PageProjects';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      {PageProjects()}
     </div>
   );
 }
