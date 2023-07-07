@@ -121,30 +121,30 @@ function PageContact() {
 
 			<Form ref={form} noValidate validated={validated} onChange={handleChange} onSubmit={sendEmail}>
 				<Row className="mb-3">
-					<Form.Group as={Col} md="6" controlId="exampleForm.ControlInput1">
+					<Form.Group as={Col} md="6" controlId="Form.ControlInput1">
 						<Form.Label>Name</Form.Label>
-						<Form.Control required name="name" type="text" placeholder="Enter Your Name" />
+						<Form.Control required name="name" type="text" placeholder="Enter Your Name" autoComplete="on"/>
 						<Form.Control.Feedback type="valid">Looks good!</Form.Control.Feedback>
 						<Form.Control.Feedback type="invalid">Please provide Your Name.</Form.Control.Feedback>
 					</Form.Group>
-					<Form.Group as={Col} md="6" controlId="exampleForm.ControlInput1">
+					<Form.Group as={Col} md="6" controlId="Form.ControlInput2">
 						<Form.Label>Email address</Form.Label>
 						<InputGroup hasValidation>
 							<InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-							<Form.Control required name="email" value={email} onChange={handleEmailChange} isInvalid={true} type="email" placeholder="name@gmail.com" />
+							<Form.Control required name="email" value={email} onChange={handleEmailChange} isInvalid={true} type="email" placeholder="name@gmail.com" autoComplete="on"/>
 							<Form.Control.Feedback type="invalid">{error}</Form.Control.Feedback>
 						</InputGroup>
 					</Form.Group>
 				</Row>
-				<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+				<Form.Group className="mb-3" controlId="Form.ControlInput3">
 					<Form.Label>Subject</Form.Label>
-					<Form.Control required name="subject" size="lg" type="text" placeholder="Enter Subject" />
+					<Form.Control required name="subject" size="lg" type="text" placeholder="Enter Subject" autoComplete="on"/>
 					<Form.Control.Feedback type="valid">Looks good!</Form.Control.Feedback>
 					<Form.Control.Feedback type="invalid">Please provide the Subject.</Form.Control.Feedback>
 				</Form.Group>
 				<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
 					<Form.Label>Mail Body</Form.Label>
-					<Form.Control required name="message" as="textarea" rows={3} />
+					<Form.Control required name="message" as="textarea" rows={3} autoComplete="on"/>
 					<Form.Control.Feedback type="valid">Looks good!</Form.Control.Feedback>
 					<Form.Control.Feedback type="invalid">Please provide a Body.</Form.Control.Feedback>
 				</Form.Group>

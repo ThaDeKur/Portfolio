@@ -11,7 +11,7 @@ import PageNavbar from "./Navbar/PageNavbar";
 
 function App() {
 	return (
-		<div>
+		<div className="wholePage">
 			{PageNavbar()}
 			<div id="Home">{PageHome()}</div>
 			<Container>

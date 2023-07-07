@@ -1,0 +1,5 @@
+.aboutMeBody {
+    text-align: justify;
+    -moz-text-align-last: left; 
+    text-align-last: left;
+}

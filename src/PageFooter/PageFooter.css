@@ -1,5 +1,42 @@
 .jumbotronFoot {
-    padding: 2rem 1rem;
-    background-color: #e9ecef;
+  padding-top: 2%;
+    background-color: #eaec6e;
     border-radius: .3rem;
+  }
+
+  .copyRight {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .navLinkFoot{
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
+  }
+  .navLinkFoot:hover {
+    color: black;
+  }
+  .navLinkFoot:active {
+    color: black;
+  }
+ 
+  .navigation-links p {
+    margin: 0.5rem 0rem;
+  }
+
+  .contact-info {
+    margin-right: 5rem;
+  }
+  .contact-info p>a{
+    text-decoration: none;
+  }
+
+  .social-media h3>a {
+    color: gray;
+    text-decoration: none;
+  }
+  .social-media h3>a:hover {
+    color: black;
+    text-decoration: underline;
   }

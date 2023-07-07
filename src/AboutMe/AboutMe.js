@@ -1,3 +1,4 @@
+import "./AboutMe.css"
 import Alert from "react-bootstrap/Alert";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
@@ -7,19 +8,22 @@ import { useHolderjs } from "holderjs";
 function AboutMe() {
 	return (
 		<Alert variant="success">
-			<Alert.Heading>Hey, nice to see you</Alert.Heading>
+			<Alert.Heading>Greetings! I'm Deepak Kumar Thakur,</Alert.Heading>
 
-			<Row className="g-4">
+			<Row>
 				<Col sm={2}>
-					<Image src="holder.js/195x180" rounded />
+					<Image src="holder.js/195x175" rounded />
 				</Col>
-				<Col sm={10}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra iaculis mauris, in placerat nulla vulputate eu. Nullam ac quam iaculis, semper justo at, consequat quam. Praesent ac arcu neque. Suspendisse finibus auctor magna vitae tristique. Sed dictum mauris eget metus lobortis, vel tincidunt purus hendrerit. Proin vel diam id nisi vestibulum pharetra. Nulla facilisi. Aliquam id justo magna. Quisque in lorem ac tellus hendrerit pellentesque. Nunc eget vulputate quam,
-					sed scelerisque mauris. Fusce dictum turpis vitae sapien eleifend, id congue arcu venenatis. Suspendisse convallis mi sed mauris luctus, eget rutrum leo volutpat. Sed vulputate lacinia velit, sed condimentum metus cursus sed.
+				<Col sm={10} className="aboutMeBody">
+					<p>
+						<span className="display-6">A</span> recent graduate in Electronics and Telecommunications Engineering with a passion for software development and web technologies. Throughout my academic journey, I developed a strong foundation in coding principles, algorithms, and data structures. Driven by a fascination for software engineering, I delved into front-end and back-end web development during my spare time. I quickly found myself captivated by the process of bringing ideas
+						to life through clean and efficient code. I have experience working with HTML, CSS, JavaScript, and have built projects using popular library like React.js. During my degree, I actively sought opportunities to expand my knowledge and skills. I engaged in internships and collaborative projects that allowed me to apply my technical expertise in real-world scenarios. These experiences provided valuable insights into agile development methodologies, teamwork, and
+						problem-solving. I possess a strong analytical mindset and a knack for understanding complex systems. I am continuously motivated to learn and embrace new technologies, staying up to date with industry trends. The prospect of creating intuitive user experiences and contributing to the development of innovative software solutions excites me.
+					</p>
 				</Col>
 			</Row>
 			<hr />
-			<p className="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+			<p className="mb-0">As I embark on my professional journey, I am eager to join a team where I can contribute my skills and work collaboratively on challenging projects. If you're seeking a dedicated software engineer or web developer with a solid technical foundation and a thirst for continuous growth, I would be delighted to connect with you.</p>
 		</Alert>
 	);
 }
