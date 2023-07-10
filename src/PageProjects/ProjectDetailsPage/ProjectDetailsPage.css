@@ -1,0 +1,13 @@
+.backButton {
+    background-color: aqua;
+}
+
+.buttonContainer > span {
+    margin-right: 1rem;
+}
+
+.description {
+    text-align: justify;
+    -moz-text-align-last: left; 
+    text-align-last: left;
+}

@@ -18,7 +18,7 @@ function PageHome() {
 						<p>Please feel free to explore my portfolio to see the projects I've worked on and the skills I bring to the table. Don't hesitate to download my resume for a more detailed overview. I also invite you to connect with me on LinkedIn. If you have any questions or would like to discuss a potential opportunity, I'm just a message away. I look forward to working together and contributing to your team's success.</p>
 
 						<p className="lead">
-							<a className="btn btn-primary btn-lg" href="#" role="button">
+							<a className="btn btn-primary btn-lg" href="/#" role="button" rel="noopener noreferrer">
 								Download My Resume
 							</a>
 							<Link to="Contact" spy={true} smooth={true} offset={-100} duration={100} className="btn btn-primary btn-lg m-2" role="button">Contact Me</Link> 
@@ -31,17 +31,17 @@ function PageHome() {
 						</div>
 						<div className="iconContainer">
 								<h1>
-									<a href="https://www.linkedin.com/in/thadekur/" target="_blank">
+									<a href="https://www.linkedin.com/in/thadekur/" target="_blank" rel="noopener noreferrer">
 										<FaLinkedin />
 									</a>
 								</h1>
 								<h1>
-									<a href="https://github.com/ThaDeKur" target="_blank">
+									<a href="https://github.com/ThaDeKur" target="_blank" rel="noopener noreferrer">
 										<FaGithubSquare />
 									</a>
 								</h1>
 								<h1>
-									<a href="https://www.codechef.com/users/thadekur" target="_blank">
+									<a href="https://www.codechef.com/users/thadekur" target="_blank" rel="noopener noreferrer">
 										<FaClosedCaptioning />
 									</a>
 								</h1>

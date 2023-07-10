@@ -14,7 +14,7 @@ function PageFooter() {
 						<h4>Contact Me</h4>
 						
 							<p>
-								<FaEnvelope /> Email: <a href="">deepakkumarthakur8010@gmail.com</a>
+								<FaEnvelope /> Email: <a href="/#">deepakkumarthakur8010@gmail.com</a>
 							</p>
 						
 						
@@ -24,7 +24,7 @@ function PageFooter() {
 						
 						
 							<p>
-								<FaGlobe /> Website: <a href="https://ThaDeKur.github.io/portfolio" target="_blank">ThaDeKur.github.io/portfolio</a>
+								<FaGlobe /> Website: <a href="https://ThaDeKur.github.io/portfolio" target="_blank" rel="noopener noreferrer">ThaDeKur.github.io/portfolio</a>
 							</p>
 						
 					</Col>
@@ -53,17 +53,17 @@ function PageFooter() {
 					<Col className="social-media">
 						<h4>Connect with Me</h4>
 
-						<h3><a href="https://github.com/ThaDeKur" target="_blank">
+						<h3><a href="https://github.com/ThaDeKur" target="_blank" rel="noopener noreferrer">
 							<FaGithubSquare /><span className="lead"> GitHub</span>
 						</a></h3>
 						
 
-						<h3><a href="https://www.linkedin.com/in/thadekur/" target="_blank">
+						<h3><a href="https://www.linkedin.com/in/thadekur/" target="_blank" rel="noopener noreferrer">
 							<FaLinkedin /><span className="lead"> LinkedIn</span>
 						</a></h3>
 						
 
-						<h3><a href="https://twitter.com/yourusername" target="_blank">
+						<h3><a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
 							<FaTwitterSquare /><span className="lead"> Twitter</span>
 						</a></h3>
 					</Col>
