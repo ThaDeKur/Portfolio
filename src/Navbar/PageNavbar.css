@@ -18,6 +18,11 @@
     color: black;
     border-bottom: 1px solid #0087ca;
   }
+  .brand {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
 
 
 

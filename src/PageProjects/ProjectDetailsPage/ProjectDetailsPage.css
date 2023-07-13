@@ -1,5 +1,6 @@
 .backButton {
     background-color: aqua;
+    position: absolute;
 }
 
 .buttonContainer > span {
@@ -10,4 +11,32 @@
     text-align: justify;
     -moz-text-align-last: left; 
     text-align-last: left;
+}
+
+.projectDetailsPage {
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.projectDetailsPage > div{
+    padding: 0.5rem 0;
+}
+
+.skill {
+    background-color: azure;
+    padding: 0.25rem 0.5rem;
+    border-radius: 30%;
+    margin: 0 0.5rem;
+}
+.project-metadata {
+    display: flex;
+    justify-content:space-between;
+}
+.workDoneContainer{
+    margin-bottom: 1rem;
+}
+.workLine {
+    margin: 0.1rem 0 0 6rem;
+
 }

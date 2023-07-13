@@ -8,7 +8,7 @@ function PageNavbar() {
 	return (
 		<Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
 			<Container>
-			<Navbar.Brand href="#Home">ThaDeKur</Navbar.Brand>
+			<Navbar.Brand><Link to="Home" spy={true} smooth={true} offset={0} duration={100} className="brand">ThaDeKur</Link></Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			
 			<Navbar.Collapse id="responsive-navbar-nav">

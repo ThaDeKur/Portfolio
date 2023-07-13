@@ -12,7 +12,7 @@ function PageProjects() {
 	let navi = useNavigate();
 
 	function redirect(id) {
-		navi("/project/" + id);
+		navi("/portfolio/project/" + id);
 	}
 
 	return (

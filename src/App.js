@@ -7,8 +7,8 @@ function App() {
     <div>
   <Router>
     <Routes>
-      <Route path={"/"}  element={<PortfolioApp />} />
-      <Route path="/project/:projectId" element={<ProjectDetailsPage />} />
+      <Route path={"/portfolio"}  element={<PortfolioApp />} />
+      <Route path="/portfolio/project/:projectId" element={<ProjectDetailsPage />} />
     </Routes>
   </Router>
 

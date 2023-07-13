@@ -1,11 +1,21 @@
 [
   {
     "id": "1",
+    "image": "holder.js/100px160",
     "title": "Project Title 1",
     "description": "Project 1 description goes here.",
     "long_description": "Long Discription for Project 1",
-    "image": "holder.js/100px160",
-    "link": "https://example.com/project1",
+    "duration": "",
+    "mentorName": "",
+    "teamSize": "",
+    "keySkills": [
+      "A",
+      "B"
+    ],
+    "workDone": [
+      "A for apple",
+      "B for Ball"
+    ],
     "buttons": [
       {
         "label": "View Code",
@@ -63,7 +73,7 @@
     "id": "4",
     "title": "Project Title 4",
     "description": "Project 4 description goes here.",
-    "long_discription": "Long Discription for Project 4",
+    "long_description": "Long Discription for Project 4",
     "image": "holder.js/100px160",
     "link": "https://example.com/project2",
     "buttons": [
